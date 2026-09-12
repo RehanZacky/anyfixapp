@@ -1,0 +1,31 @@
+# Environments
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Dependencies
+**/node_modules/
+**/vendor/
+
+# Storage & Cache
+**/storage/*.key
+**/storage/pail/
+**/storage/framework/cache/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*
+**/storage/logs/*
+**/public/storage
+**/public/build
+**/public/hot
+
+# Tests & IDE
+.phpunit.result.cache
+.phpunit.cache/
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
